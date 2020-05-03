@@ -24,3 +24,6 @@ sf = shp.Reader("gadm36_IND_shp/gadm36_IND_2.shp")
 
 print(len(sf.shapes()))
 
+record_1 = sf.records()[1]
+print(record_1)
+
